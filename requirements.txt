@@ -1,0 +1,10 @@
+# data science
+pandas
+
+# LLM stack
+pip install openai==0.28
+
+
+haystack-ai
+huggingface_hub
+transformers
