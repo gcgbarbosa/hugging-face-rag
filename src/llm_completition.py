@@ -105,7 +105,7 @@ class DrugQALLMAction(CompletitionLLMAction):
 
             <s>CONTEXTO: {context}</s>
             <s>PREGUNTA: {prompt}</s>
-            <s>RESPUESTA: </>
+            <s>RESPUESTA: </s>
             """
 
         result =  self.client.text_generation(

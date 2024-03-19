@@ -7,6 +7,7 @@ class PdfHttpConverter:
     Class that fetches PDF documents from HTTP links and converts them to text
     using PyPDFToDocument
     """
+
     def __init__(self) -> None:
         """
         Create a new PDFHttpConverter instance
@@ -33,4 +34,4 @@ class PdfHttpConverter:
         text_from_pdf = self.converter.run(streams)
         # The output of PyPDFToDocument is a dict containing a list of documents
         # We're only interested in the first document in the list
-        return text_from_pdf['documents'][0]
+        return text_from_pdf["documents"][0]
