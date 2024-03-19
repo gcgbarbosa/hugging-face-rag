@@ -1,4 +1,4 @@
-# TonicApp Drug Information Chatbot
+# Drug Information Chatbot
 
 ## How to run
 
